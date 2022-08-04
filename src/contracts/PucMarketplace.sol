@@ -1,6 +1,6 @@
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.0;
 
-contract Marketplace {
+contract PucMarketplace {
   string public name;
   PucCoin private _token;
   uint public productCount=0;
@@ -48,7 +48,6 @@ event ProductPurchased (
     emit ProductCreated(productCount, _name, _price, msg.sender, false);
   }
 
-
   function purchaseProduct(uint _id) public {
     //Fetch the product and make a copy of it
     Product memory _product = products[_id];
@@ -73,7 +72,7 @@ event ProductPurchased (
     //Update the product
     products[_id] = _product;
 
-    //Pay the seller by sending them PUCAs
+    //Pay the seller by sending them PUCs
     _token.transferFrom(buyer, _seller, _product.price);
 
     //Trigger an event
