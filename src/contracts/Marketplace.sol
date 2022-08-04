@@ -1,4 +1,4 @@
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.0;
 
 contract Marketplace {
   string public name;
@@ -65,7 +65,7 @@ event ProductPurchased (
     //Update the product
     products[_id] = _product;
     //Pay the seller by sending them Ether
-    address(_seller).transfer(msg.value);
+    _seller.transfer(msg.value);
     //Trigger an event
     emit ProductPurchased(productCount, _product.name, _product.price, msg.sender, true);
   }
