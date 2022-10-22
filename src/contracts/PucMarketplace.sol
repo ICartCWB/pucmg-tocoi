@@ -1,5 +1,7 @@
 pragma solidity ^0.6.0;
 
+import "./PucCoin.sol";
+
 contract PucMarketplace {
   string public name;
   PucCoin private _token;
