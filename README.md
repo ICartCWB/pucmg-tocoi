@@ -1,6 +1,6 @@
 # Tokenização de Cotas Imobiliárias
 
-Aplicativo para tokenização de cotas imobiliárias, para a disciplina de DApps em Ethereum, da PUCMG. 
+Aplicativo para tokenização de cotas imobiliárias, produzido opcionalmente na disciplina DApps em Etherum, da Especialização de Aplicações e Tecnologias de Blockchain, da PUCMG, 2022. 
 
 Baseado Mercado Blockchain que foi referenciado pelo tutorial do canal Dapp University (http://www.dappuniversity.com) 
 
