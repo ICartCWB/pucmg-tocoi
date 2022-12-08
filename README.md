@@ -1,4 +1,5 @@
-# Ethereum Marketplace
+# Tokenização de Cotas Imobiliárias
 
-Mercado Blockchain baseado no tutorial do canal Dapp University (http://www.dappuniversity.com) 
-YouTube tutorial: https://www.youtube.com/watch?v=VH9Q2lf2mNo
+Aplicativo para tokenização de cotas imobiliárias, para a disciplina de DApps em Ethereum, da PUCMG, por Israel Nunes. 
+
+Baseado Mercado Blockchain que foi referenciado pelo tutorial do canal Dapp University (http://www.dappuniversity.com) 
